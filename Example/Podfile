@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SMPushKit_Tests' do
+  pod 'SMPushKit', :path => '../'
+  
+  
+end
