@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SMPushKit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of SMPushKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SMPushKit/SMPush.framework/Headers/*.{h}'
-  s.vendored_frameworks = 'SMPushKit/*.framework'
+  #s.source_files = 'SMPushKit/SMPush.xcframework/Headers/*.{h}'
+  s.vendored_frameworks = 'SMPushKit/*.xcframework'
   # s.resource_bundles = {
   #   'SMPushKit' => ['SMPushKit/Assets/*.png']
   # }
@@ -40,3 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'JPush'
 end
+
+
+
